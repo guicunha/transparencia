@@ -1,7 +1,7 @@
 language: php
 
 php:
-  - '7.1'
+  - '7.2'
 
 install:
   - composer self-update
@@ -13,7 +13,6 @@ script:
   - cp .env.travis .env
   - ls -al
   - pwd
-  - php vendor/phpunit/phpunit/phpunit --coverage-clover=coverage.xml
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t 5a4f5a1b-2cae-4ccf-858f-4dd14e12a4e0
