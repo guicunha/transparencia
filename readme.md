@@ -1,5 +1,7 @@
 # Transparência
 
+[![Build Status](https://travis-ci.org/guicunha/transparencia.svg?branch=master)](https://travis-ci.org/guicunha/transparencia)
+
 Sistema open source para portal de transparência.
 
 
