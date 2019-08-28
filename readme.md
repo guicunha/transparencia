@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/guicunha/transparencia.svg?branch=master)](https://travis-ci.org/guicunha/transparencia)
 [![Maintainability](https://api.codeclimate.com/v1/badges/edb76687cde30928c8fe/maintainability)](https://codeclimate.com/github/guicunha/transparencia/maintainability)
+[![codecov](https://codecov.io/gh/guicunha/transparencia/branch/master/graph/badge.svg)](https://codecov.io/gh/guicunha/transparencia)
 
 Sistema open source para portal de transparência.
 
