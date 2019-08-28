@@ -1,14 +1,17 @@
-sudo: required
 language: php
-dist: trusty
 
 php:
-  - 7.2
-
-addons:
-  chrome: stable
+  - '7.1'
 
 install:
-  - travis_retry composer install --no-interaction --prefer-dist --no-suggest
-  - travis_retry npm install
-  - npm run prod
+  - composer self-update
+  - composer install --no-interaction
+
+script:
+  - cp .env.travis .env
+  - ls -al
+  - pwd
+  - php vendor/phpunit/phpunit/phpunit --coverage-clover=coverage.xml
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t 5a4f5a1b-2cae-4ccf-858f-4dd14e12a4e0
