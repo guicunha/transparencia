@@ -1,17 +1,25 @@
-# Transparência
-
+# Transparência Pública
 [![Build Status](https://travis-ci.org/guicunha/transparencia.svg?branch=master)](https://travis-ci.org/guicunha/transparencia)
 [![Maintainability](https://api.codeclimate.com/v1/badges/edb76687cde30928c8fe/maintainability)](https://codeclimate.com/github/guicunha/transparencia/maintainability)
 [![codecov](https://codecov.io/gh/guicunha/transparencia/branch/master/graph/badge.svg)](https://codecov.io/gh/guicunha/transparencia)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
-Sistema open source para portal de transparência.
+## Sobre o Sistema
 
+## Requisitos
 
-### Modelo de Licenciamento
+## Como instalar
 
-The MIT License
+## Docker
 
-Copyright (c) 2010-2019 Google, Inc. http://angularjs.org
+## Bibliotecas utilizadas
+
+### Licenciamento
+
+#### The MIT License
+
+```
+Copyright 2019-2019
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,4 +38,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
+```
