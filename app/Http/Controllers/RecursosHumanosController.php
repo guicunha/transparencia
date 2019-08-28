@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+
 
 use App\Http\Requests;
 use Prettus\Validator\Contracts\ValidatorInterface;
@@ -11,6 +11,7 @@ use App\Http\Requests\RecursosHumanosCreateRequest;
 use App\Http\Requests\RecursosHumanosUpdateRequest;
 use App\Repositories\RecursosHumanosRepository;
 use App\Validators\RecursosHumanosValidator;
+use Illuminate\Http\Request;
 
 /**
  * Class RecursosHumanosController.
