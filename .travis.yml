@@ -13,7 +13,8 @@ script:
   - cp .env.travis .env
   - ls -al
   - pwd
-  - "vendor/bin/phpunit --coverage-clover build/logs/clover.xml"
+  - if [[ "$DRIVER" = 'phpdbg' ]]; then phpdbg -qrr vendor/bin/phpunit --coverage-clover=coverage.xml; fi
+  - if [[ "$DRIVER" != 'phpdbg' ]]; then vendor/bin/phpunit --coverage-clover=coverage.xml; fi
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t 5a4f5a1b-2cae-4ccf-858f-4dd14e12a4e0
