@@ -21,6 +21,9 @@
             <directory suffix=".php">./app/Services</directory>
         </whitelist>
     </filter>
+    <logging>
+        <log type="coverage-clover" target="clover.xml"/>
+    </logging>
     <!-- <logging>
         <log type="coverage-html" target="./log/codeCoverage" charset="UTF-8"
              yui="true" highlight="true" lowUpperBound="50" highLowerBound="80"
