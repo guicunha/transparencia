@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
 ## Sobre o Sistema
+O sistema foi desenvolvido com intuito de permitir que pequenas, médias ou mesmo grandes instituições públicas possam ter um poral de transparência simples, leve, acessível e de baixo custo, porém de alta qualidade.
 
 ## Requisitos
 
